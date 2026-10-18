@@ -43,6 +43,6 @@ export const assets: Asset[] = [
 ]
 
 export const riskScore = (risk: Risk): number => risk.p * risk.i
-export const riskLabel = (score: number): string => score >= 20 ? 'Crítico' : score >= 12 ? 'Alto' : score >= 6 ? 'Medio' : 'Bajo'
-export const riskColor = (score: number): string => score >= 20 ? 'critical' : score >= 12 ? 'high' : score >= 6 ? 'medium' : 'low'
-export const highRiskCount = risks.filter((risk) => riskScore(risk) >= 12).length
+export const riskLabel = (score: number): string => score >= 17 ? 'Crítico' : score >= 10 ? 'Alto' : score >= 5 ? 'Medio' : 'Bajo'
+export const riskColor = (score: number): string => score >= 17 ? 'critical' : score >= 10 ? 'high' : score >= 5 ? 'medium' : 'low'
+export const highRiskCount = risks.filter((risk) => riskScore(risk) >= 10).length
