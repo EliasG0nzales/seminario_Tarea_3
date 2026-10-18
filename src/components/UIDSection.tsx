@@ -5,7 +5,6 @@
         <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260217_030345_246c0224-10a4-422c-b324-070b7c0eceda.mp4" type="video/mp4" />
       </video>
       <div className="uid-promo-content">
-        <div className="uid-promo-badge"><i /><span>Unidad de Inteligencia de Datos</span><b>Seminario IV</b></div>
         <h2>Un equipo que<br />lee el futuro.</h2>
         <p>La UID transforma datos históricos y operativos en pronósticos, recomendaciones y herramientas para planificar la cadena de suministro.</p>
         <a className="uid-promo-cta" href="#uid-equipo"><span>Conocer el equipo</span><i>→</i></a>

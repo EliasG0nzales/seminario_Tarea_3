@@ -81,8 +81,6 @@ html{scroll-behavior:smooth;scroll-padding-top:92px}body{background:#fff;color:#
 .uid-promo:after{content:"";position:absolute;z-index:-1;inset:0;background:rgba(0,0,0,.5);pointer-events:none}
 .uid-promo-video{position:absolute;z-index:-2;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
 .uid-promo-content{width:min(760px,calc(100% - 40px));display:flex;flex-direction:column;align-items:center;text-align:center;gap:40px;padding:280px 0 102px}
-.uid-promo-badge{display:inline-flex;align-items:center;gap:9px;padding:9px 14px;border:1px solid #ffffff33;border-radius:999px;background:#ffffff1a;color:#ffffffa8;font:500 13px 'General Sans',sans-serif;backdrop-filter:blur(10px)}
-.uid-promo-badge i{width:4px;height:4px;flex:none;border-radius:50%;background:#fff}.uid-promo-badge b{color:#fff;font-weight:500}
 .uid-promo-content h2{max-width:613px;margin:0;color:transparent;background:linear-gradient(144.5deg,#fff 28%,rgba(255,255,255,0) 115%);background-clip:text;-webkit-background-clip:text;font:500 clamp(36px,4.2vw,56px)/1.28 'General Sans',Inter,sans-serif;letter-spacing:-.035em}
 .uid-promo-content p{max-width:680px;margin:-12px 0 0;color:#ffffffb3;font:400 15px/1.7 'General Sans',Inter,sans-serif}
 .uid-promo-cta{position:relative;display:inline-flex;padding:1px;border:.6px solid #ffffff9c;border-radius:999px;background:linear-gradient(180deg,#ffffff88,#ffffff15 38%,#ffffff24);color:#000;box-shadow:0 -4px 16px #ffffff24;transition:transform .25s ease,box-shadow .25s ease}
@@ -90,7 +88,7 @@ html{scroll-behavior:smooth;scroll-padding-top:92px}body{background:#fff;color:#
 .uid-promo-cta span{padding:11px 29px;border-radius:999px;background:#fff;font:500 14px 'General Sans',Inter,sans-serif}.uid-promo-cta i{display:none}.uid-promo-cta:hover{transform:translateY(-2px);box-shadow:0 -5px 22px #ffffff42}
 .uid-promo-caption{position:absolute;left:clamp(20px,5vw,72px);bottom:28px;color:#ffffff9c;font:10px 'DM Mono',monospace;letter-spacing:.12em}
 .uid-cinematic .uid-inner{max-width:none;padding:92px max(calc((100vw - 1100px)/2),8vw);margin:0;background:#050505;color:#fff}
-@media(max-width:760px){.uid-promo-content{gap:26px;padding:200px 0 102px}.uid-promo-content h2{font-size:36px;line-height:1.2}.uid-promo-content p{font-size:14px}.uid-promo-badge{max-width:100%;flex-wrap:wrap;justify-content:center;font-size:11px}.uid-cinematic .uid-inner{padding:68px 21px}}
+@media(max-width:760px){.uid-promo-content{gap:26px;padding:200px 0 102px}.uid-promo-content h2{font-size:36px;line-height:1.2}.uid-promo-content p{font-size:14px}.uid-cinematic .uid-inner{padding:68px 21px}}
 @media(prefers-reduced-motion:reduce){.uid-promo-video{animation:none}.uid-promo-cta{transition:none}}
 /* Continue the cinematic treatment through the UID diagram, team, photo and forecast. */
 .uid-cinematic .uid-inner{background:#050505;color:#fff}
