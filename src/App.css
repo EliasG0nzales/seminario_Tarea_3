@@ -209,3 +209,19 @@ html{scroll-behavior:smooth;scroll-padding-top:92px}body{background:#fff;color:#
 .risk-section .heatmap-card .heat-legend i.medium{background:#ffe66a}
 .risk-section .heatmap-card .heat-legend i.high{background:#ffb52e}
 .risk-section .heatmap-card .heat-legend i.critical{background:#ef493b}
+.risk-section .heat-cell{position:relative;flex-direction:column;gap:2px}.risk-section .heat-value{font:600 15px/1 var(--head);color:#18251b}.risk-section .heat-dot{height:17px;min-width:17px;font-size:7px}.risk-section .x-scale{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;text-align:center;margin-top:4px}.risk-section .x-scale span{font:7px/1.2 var(--head);color:#273329}
+.risk-evaluation{margin:24px 0;padding:24px;background:rgba(8,25,31,.64);border:1px solid #ffffff42;border-radius:16px;box-shadow:0 12px 36px #0002;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}.risk-evaluation-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:16px}.risk-evaluation-heading h3{margin:7px 0 0;font:600 20px var(--head);color:#fff}.risk-evaluation-heading p{max-width:400px;margin:0;color:#ffffffc7;font:10px/1.6 var(--head)}.evaluation-table-wrap{overflow-x:auto;border:1px solid #ffffff35;border-radius:8px}.evaluation-table-wrap table{width:100%;min-width:690px;border-collapse:collapse;color:#fff;text-align:center;font:11px var(--head)}.evaluation-table-wrap th{padding:11px 9px;background:#ffffff17;color:#fff;font-size:9px}.evaluation-table-wrap td{padding:10px 9px;border-top:1px solid #ffffff30}.evaluation-table-wrap tbody tr:hover{background:#ffffff0c}.evaluation-level{display:inline-block;min-width:58px;padding:5px 8px;border-radius:3px;font-size:9px;font-weight:700}.evaluation-level.low{background:#8bcf70;color:#18251b}.evaluation-level.medium{background:#ffe66a;color:#342d09}.evaluation-level.high{background:#ffb52e;color:#36210a}.evaluation-level.critical{background:#ef493b;color:#fff}
+@media(max-width:760px){.risk-evaluation{padding:17px}.risk-evaluation-heading{display:block}.risk-evaluation-heading p{margin-top:10px}.risk-section .heat-value{font-size:12px}.risk-section .x-scale span{font-size:6px}}
+/* Background tuned to the risk matrix reference: reveal the image while keeping text legible. */
+.risk-section:before{background:rgba(8,22,28,.46)}
+.risk-section .risk-background-video{filter:saturate(.88) contrast(1.04)}
+.risk-section .heatmap-card{background:#f5f5f0}
+.risk-section .risk-ranking,.risk-section .risk-evaluation{background:rgba(12,27,32,.78)}
+/* Heatmap card: stronger separation from the photo, with white labels. */
+.risk-section .heatmap-card{background:rgba(9,25,31,.88);border:1px solid #ffffff8c;box-shadow:0 16px 44px #0007;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.risk-section .heatmap-card .card-head .label,.risk-section .heatmap-card .card-head h3,.risk-section .heatmap-card .scale-note,.risk-section .heatmap-card .y-label,.risk-section .heatmap-card .x-axis,.risk-section .heatmap-card .x-label,.risk-section .heatmap-card .x-scale span,.risk-section .heatmap-card .heat-legend span,.risk-section .heatmap-card .heat-foot{color:#fff;text-shadow:0 1px 5px #000b}
+.risk-section .heatmap-card .heat-cell{border:1px solid #ffffffcf}
+.risk-section .heatmap-card .heat-value{color:#fff;text-shadow:0 1px 4px #000,0 0 7px #000}
+.risk-section .heatmap-card .heat-dot{background:#14251b;color:#fff;border:1px solid #ffffffa8}
+.risk-layout{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)} .risk-section .heatmap-card.asset-threat-heatmap{padding:0;overflow:hidden;background:#fff;border:1px solid #ffffffcc} .asset-threat-heatmap img{display:block;width:100%;height:auto}
+@media(max-width:760px){.risk-section .risk-layout{grid-template-columns:1fr}.risk-section .asset-threat-heatmap{max-width:700px;margin-inline:auto}}
