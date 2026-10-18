@@ -1,0 +1,48 @@
+.footer {
+  background: #050606;
+  color: #aeb3af;
+  border-top: 1px solid #262a28;
+}
+
+.footer-brand {
+  color: #f6f7f5;
+}
+
+.footer-brand .brand-mark {
+  background: #f2f4f1;
+  color: #111513;
+}
+
+.footer-brand small {
+  color: #9ba29d;
+}
+
+.footer > span,
+.footer > a:last-child {
+  color: #aeb3af;
+}
+
+.footer > a:last-child:hover {
+  color: #fff;
+}
+
+.story-chapter {
+  transition: opacity .2s ease, visibility .2s ease, transform .2s ease;
+}
+
+.story-chapter--hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+}
+
+.closing > .closing-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 48%;
+  transform: scale(1.08);
+  filter: brightness(.55);
+}
